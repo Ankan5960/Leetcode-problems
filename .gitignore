@@ -30,6 +30,7 @@
 *.exe
 *.out
 *.app
+*.iso
 
 # VSCode
 *.vscode
@@ -37,3 +38,4 @@
 *.DS_Store
 main
 *.bat
+*.untraced
