@@ -9,12 +9,7 @@ class Solution {
 public:
     string FindPrefix(string str1,string str2){
         string res;
-        int end;
-        if(str1.length()>=str2.length())
-            end=str2.length();
-        else
-            end=str1.length();
-        for(int i=0;i<end;i++){
+        for(int i=0;i<i<str1.length() || i<str2.length();i++){
             if(str1[i]==str2[i]){
                 res.push_back(str1[i]);
             }
